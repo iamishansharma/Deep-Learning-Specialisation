@@ -12,4 +12,4 @@ df['PCT_Change']=(df['Adj. Close']-df['Adj. Open'])/df['Adj. Open'] * 100.0
 
 df = df[['Adj. Close','HL_PCT','PCT_Change','Adj. Volume']]
 
-print(df.head())
+forecast_col = 'Adj. Close'
